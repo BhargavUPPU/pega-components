@@ -1,0 +1,18 @@
+{
+  "name": "infocar",
+  "label": "infocar",
+  "description": "Custom Pega DX component infocar",
+  "type": "Field",
+  "properties": [
+    {
+      "name": "label",
+      "label": "Label",
+      "format": "TEXT"
+    },
+    {
+      "name": "value",
+      "label": "Value",
+      "format": "TEXT"
+    }
+  ]
+}
