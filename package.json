@@ -1,0 +1,30 @@
+{
+  "name": "pega-custom-dx-components-sdk",
+  "version": "1.0.0",
+  "description": "Pega Constellation & Cosmos Custom DX Component SDK Workspace",
+  "type": "module",
+  "scripts": {
+    "authenticate": "custom-dx-components authenticate",
+    "buildComponent": "custom-dx-components buildComponent",
+    "buildAllComponents": "custom-dx-components buildAllComponents",
+    "publish": "custom-dx-components publish",
+    "publishAll": "custom-dx-components publishAll",
+    "startStorybook": "storybook dev --port 6040 --quiet",
+    "build-storybook": "storybook build",
+    "lint": "eslint .",
+    "test": "jest"
+  },
+  "dependencies": {
+    "@pega/cosmos-react-core": "^8.4.1",
+    "@pega/cosmos-react-work": "^8.4.1",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "styled-components": "^5.3.11"
+  },
+  "devDependencies": {
+    "@pega/custom-dx-components": "~25.1.25",
+    "@storybook/react-webpack5": "^8.6.14",
+    "storybook": "^8.6.14",
+    "typescript": "~5.5.4"
+  }
+}
